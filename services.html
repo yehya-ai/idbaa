@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="Ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحة الخدمات</title>
+
+    <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/assets/Style.css" />
+  </head>
+
+  <body>
+    <!-- ==========     Navbar \\\\  الناف بار   =========== -->
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <!--    اللوجو \\\ الاسم اسم الصفحة \\\ الأيقونات بوتستراب  -->
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="index.html"
+          title="إبداع ميديا"
+        >
+          <img
+            id="Card"
+            class="brand-logo"
+            src="/imags/Logo.png"
+            alt="إبداع ميديا"
+            width="48"
+            height="48"
+            style="border-radius: 50%"
+          />
+          <span class="navbar-brand d-flex">
+            <h6 id="Card">إبداع ميديا للتصمميم والتسويق</h6>
+          </span>
+        </a>
+
+        <!-- أيقونة التنقل بين الصفحات \\\ ثلاث شرطات -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ===========  Book it!  \\\ الصفحات \\\\   روابط + زر البوك ات   =========   -->
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto gap-2">
+            <!-- Home \\\\ ربط مع أيقونات \\\  صفحة الهوم  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fa-solid fa-house me-1"></i> الرئيسية</a
+              >
+            </li>
+            <!-- Services   \\\ صفحة الخدمات  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link active text-warning" href="services.html"
+                ><i class="fa-solid fa-briefcase me-1"></i>الخدمات</a
+              >
+            </li>
+            <!--  Contact Us   \\\ صفحة التواصل  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fa-solid fa-envelope me-1"></i>تواصل معنا</a
+              >
+            </li>
+            <!--  Contact Us   \\\ صفحة التواصل  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="نماذج أعمالنا.html"
+                ><i class="fa-solid fa-images me-1"></i>نماذج أعمالنا</a
+              >
+            </li>
+          </ul>
+          <!-- Search form -->
+          <form class="d-flex ms-lg-3 me-lg-4 my-2 my-lg-0" id="searchForm">
+            <input
+              id="Card"
+              class="form-control form-control-sm me-2"
+              type="search"
+              placeholder="ابحث هنا"
+              aria-label="Search"
+              required
+            />
+            <button class="btn btn-outline-light btn-sm" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- مسافة تحت navbar -->
+    <div class="page-top-space"></div>
+    <!-- ================
+      container \\\ الكونتينر قسم تفاصيل الخدمات 
+      =============== -->
+    <main class="py-5">
+      <div class="container">
+        <h1 class="h4 fw-bold pt-5 mb-4">
+          <i class="fa-solid fa-briefcase text-warning"></i> تفاصيل الخدمات
+        </h1>
+
+        <!-- Graphic  \\\ القسم الأول  -->
+        <section class="mb-4 p-4 bg-light rounded-4">
+          <!-- تنسيق الصورة  -->
+          <img
+            class="mb-3"
+            src="/imags/صورة جرافيك.jpeg"
+            alt="Logo"
+            width="150"
+            height="150"
+            style="border-radius: 8px"
+          />
+          <!--   تنسيق عنوان البطاقة والنص  -->
+          <h1 class="h5 fw-bold">تصميم جرافيك</h1>
+          <ul id="list" class="text-dark mb-0">
+            <li>تصميم الشعارات (Logo).</li>
+            <li>هوية بصرية (Visual identity) للعلامة التجارية.</li>
+
+            <li>تصميم منشورات (Posts) لمختلف منصات التواصل الاجتماعي.</li>
+            <li>إعلانات ممولة لوسائل التواصل الاجتماعي.</li>
+            <li>بانرات، صور مصغرة، وصور إبداعية</li>
+            <li>تصميم بطاقات أعمال،(business cards).</li>
+          </ul>
+          <!-- تنسيق زر السرفس طلب مربوط بالموديل   -->
+          <div class="text-end mt-2">
+            <a
+              id="Card"
+              href="contact.html"
+              class="btn btn-outline-secondary btn-sm details-btn"
+            >
+              طلب الخدمة
+            </a>
+          </div>
+        </section>
+
+        <!-- social  \\\ القسم الثاني   -->
+        <section class="mb-4 p-4 bg-light rounded-4">
+          <!-- تنسيق الصورة  -->
+          <img
+            class="mb-3"
+            src="/imags/إدارة الصفحات .jpeg"
+            alt="Logo"
+            width="150"
+            height="150"
+            style="border-radius: 8px"
+          />
+          <!--   تنسيق عنوان البطاقة والنص  -->
+          <h1 class="h5 fw-bold">إدارة وسائل التواصل الاجتماعي</h1>
+          <ul id="list" class="text-dark mb-0">
+            <li>
+              إعداد خطة محتوى شهرية متوافقة مع أهداف النشاط (Business plan).
+            </li>
+            <li>(Post scheduling)تصميم ونشر منشورات احترافية بشكل منتظم</li>
+            <li>تحسين التفاعل والنمو (Boost Engagement and Growth).</li>
+            <li>كتابة محتوى تسويقي جذاب يزيد التفاعل.</li>
+            <li>الرد على الرسائل والتعليقات بشكل احترافي.</li>
+            <li>تحليل الأداء وتحسين الاستراتيجية التسويقية.</li>
+            <li>زيادة الوصول والتفاعل مع الجمهور المستهدف.</li>
+            <li>بناء هوية قوية للنشاط على المنصات الاجتماعية.</li>
+          </ul>
+          <div class="text-end mt-2">
+            <a
+              id="Card"
+              href="contact.html"
+              class="btn btn-outline-secondary btn-sm details-btn"
+            >
+              طلب الخدمة
+            </a>
+          </div>
+        </section>
+
+        <!-- Data  \\\ القسم الثالث  -->
+        <section class="mb-4 p-4 bg-light rounded-4">
+          <img
+            class="mb-3"
+            src="/imags/‘إلاعلانات ممولة .jpeg"
+            alt="Logo"
+            width="150"
+            height="150"
+            style="border-radius: 8px"
+          />
+          <div></div>
+          <h1 class="h5 fw-bold">إعلانات ممولة إحترافية</h1>
+          <h5 class="h6 fw-bold">
+            نصمم وندير حملات إعلانية مدروسةعلى مختلف المنصات تتحق أفضل نتائح
+            بأقل تكلفة
+          </h5>
+          <ul id="list" class="text-dark mb-0">
+            <li>إنشاء حملات إعلانية احترافية على فيسبوك وإنستغرام.</li>
+            <li>تحديد الجمهور المستهدف بدقة لزيادة النتائج.</li>
+            <li>تحسين الإعلانات للحصول على أفضل عائد استثمار</li>
+            <li>تحليل أداء الحملات وتطويرها باستمرار</li>
+            <li>زيادة الوعي بالعلامة التجارية والمبيعات من خلال الإعلانات.</li>
+            <li>تصميم إعلانات جذابة بصريًا ومحتوى مقنع.</li>
+            <li>تقارير دورية توضح نتائج الحملات الإعلانية.</li>
+          </ul>
+          <!-- تنسيق زر السرفس طلب مربوط بالموديل   -->
+          <div class="text-end mt-2">
+            <a
+              id="Card"
+              href="contact.html"
+              class="btn btn-outline-secondary btn-sm details-btn"
+            >
+              طلب الخدمة
+            </a>
+          </div>
+        </section>
+        <div class="container my-5">
+          <div class="card text-center shadow-sm border-0 p-4">
+            <h4 class="fw-bold mb-3">بإمكانك الاطلاع على نماذج أعمالنا</h4>
+
+            <p class="text-muted">
+              شاهد بعض التصاميم والأعمال التي قمنا بتنفيذها لعملائنا.
+            </p>
+
+            <div class="mt-3">
+              <a href="نماذج أعمالنا.html" class="btn btn-warning px-4">
+                اضغط هنا
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- =========================   Footer \\\ قسم الفوتر للصفحة   ========================= -->
+    <footer class="footer py-4 mt-5">
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3"
+      >
+        <div class="fw-bold">
+          © <span id="year"></span>إبداع ميديا — الإبداع الذي يصنع النجاح.
+        </div>
+        <!--  Font Awesome   \\\ فونت اوسم الأيقونات  -->
+
+        <div class="d-flex gap-3">
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-facebook"></i> Facebook</a
+          >
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-instagram"></i> Instagram</a
+          >
+          <!-- back-to-top button -->
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- back-to-top button -->
+    <button
+      id="backToTop"
+      class="btn btn-primary btn-lg"
+      title="Back to top"
+      aria-label="Back to top"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- Bootstrap JS \\\ بوتستراب ربط -->
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/assets/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="Ar" dir="rtl">
+  <head>
+    <!-- Basic meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تواصل معنا</title>
+
+    <!-- Bootstrap (LOCAL) -->
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css" />
+
+    <!-- Font Awesome (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/assets/Style.css" />
+  </head>
+
+  <body>
+    <!-- ==========     Navbar \\\\  الناف بار   =========== -->
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <!--    اللوجو \\\ الاسم اسم الصفحة \\\ الأيقونات بوتستراب  -->
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="index.html"
+          title="إبداع ميديا"
+        >
+          <img
+            id="Card"
+            class="brand-logo"
+            src="/imags/Logo.png"
+            alt="إبداع ميديا"
+            width="48"
+            height="48"
+            style="border-radius: 50%"
+          />
+          <span class="navbar-brand d-flex">
+            <h6 id="Card">إبداع ميديا للتصمميم والتسويق</h6>
+          </span>
+        </a>
+
+        <!-- أيقونة التنقل بين الصفحات \\\ ثلاث شرطات -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ===========  Book it!  \\\ الصفحات \\\\   روابط + زر البوك ات   =========   -->
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto gap-2">
+            <!-- Home \\\\ ربط مع أيقونات \\\  صفحة الهوم  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fa-solid fa-house me-1"></i> الرئيسية</a
+              >
+            </li>
+            <!-- Services   \\\ صفحة الخدمات  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="services.html"
+                ><i class="fa-solid fa-briefcase me-1"></i>الخدمات</a
+              >
+            </li>
+            <!--  Contact Us   \\\ صفحة التواصل  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link active text-warning" href="contact.html"
+                ><i class="fa-solid fa-envelope me-1"></i>تواصل معنا</a
+              >
+            </li>
+            <!--  Contact Us   \\\ صفحة التواصل  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="نماذج أعمالنا.html"
+                ><i class="fa-solid fa-images me-1"></i>نماذج أعمالنا</a
+              >
+            </li>
+          </ul>
+
+          <!-- Search form -->
+          <form class="d-flex ms-lg-3 me-lg-4 my-2 my-lg-0" id="searchForm">
+            <input
+              id="Card"
+              class="form-control form-control-sm me-2"
+              type="search"
+              placeholder="ابحث هنا"
+              aria-label="Search"
+              required
+            />
+            <button class="btn btn-outline-light btn-sm" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- ================= End Navbar ================= -->
+
+    <!-- ================= Page Content \\\\ معلومات التواصل  ================= -->
+    <main class="page-wrap">
+      <div class="container">
+        <!-- Page title \\\ عنوان القسم  -->
+        <div class="text-center mb-4">
+          <h1 class="fw-bold mb-2">
+            <i class="fa-solid fa-headset text-primary me-2"></i>تواصل معنا
+          </h1>
+          <p class="text-secondary mb-0">
+            أرسل طلبك وسأقوم بالرد عليك في أقرب وقت ممكن.
+          </p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- ===== Left: Contact Info   \\\\ على اليمين معلومات التواصل  ===== -->
+          <div class="col-lg-12">
+            <div class="card contact-card h-100">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-3">معلومات التواصل</h4>
+
+                <!-- Phone -->
+                <div class="d-flex gap-3 mb-3">
+                  <div class="contact-icon text-success">
+                    <i class="fa-solid fa-phone text-primary"></i>
+                  </div>
+
+                  <div>
+                    <div class="fw-semibold">اتصل بنا الآن</div>
+
+                    <a
+                      href="tel:+972594647856"
+                      class="btn btn-primary btn-sm mt-1"
+                    >
+                      <i class="fa-solid fa-phone me-2"></i>
+                      اتصل بنا
+                    </a>
+                  </div>
+                </div>
+                <!-- WhatsApp / Phone  \\\\  رقم التواصل   -->
+                <div class="d-flex gap-3 mb-3">
+                  <div class="contact-icon text-success">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div>
+                    <div class="fw-semibold">تواصل معنا على واتساب.</div>
+                    <a
+                      href="https://wa.me/972594647856"
+                      class="btn btn-success btn-sm mt-1"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="fa-brands fa-whatsapp me-2"></i>
+                      واتساب
+                    </a>
+                    <div class="text-secondary"></div>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="d-flex gap-3 mb-3">
+                  <div class="contact-icon text-danger">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+
+                  <div>
+                    <div class="fw-semibold">البريد الإلكتروني</div>
+
+                    <a
+                      href="mailto:ibdaa.media.for@gmail.com"
+                      class="btn btn-danger btn-sm mt-1"
+                    >
+                      <i class="fa-solid fa-envelope me-2"></i>
+                      أرسل بريد
+                    </a>
+                  </div>
+                </div>
+                <!-- Quick note  \\\\  ملاحظة للمستخدم  -->
+                <div class="alert alert-primary mb-0">
+                  <i class="fa-solid fa-circle-info me-2"></i>
+                  يرجى تضمين تفاصيل طلبك في الرسالة لتسريع عملية الرد. شكرًا
+                  لتواصلك!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="container my-5">
+      <div class="card text-center shadow-sm border-0 p-4">
+        <h4 class="fw-bold mb-3">بإمكانك الاطلاع على نماذج أعمالنا</h4>
+
+        <p class="text-muted">
+          شاهد بعض التصاميم والأعمال التي قمنا بتنفيذها لعملائنا.
+        </p>
+
+        <div class="mt-3">
+          <a href="نماذج أعمالنا.html" class="btn btn-warning px-4">
+            اضغط هنا
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Results Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <h5 class="modal-title">نتائج البحث</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div id="searchResults"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ================= End Page Content ================= -->
+
+    <!-- =========================   Footer \\\ قسم الفوتر للصفحة   ========================= -->
+    <footer class="footer py-4 mt-5">
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3"
+      >
+        <div class="fw-bold">
+          © <span id="year"></span>إبداع ميديا — الإبداع الذي يصنع النجاح.
+        </div>
+        <!--  Font Awesome   \\\ فونت اوسم الأيقونات  -->
+
+        <div class="d-flex gap-3">
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-facebook"></i> Facebook</a
+          >
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-instagram"></i> Instagram</a
+          >
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- back-to-top button -->
+    <button
+      id="backToTop"
+      class="btn btn-primary btn-lg"
+      title="Back to top"
+      aria-label="Back to top"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS (LOCAL) -->
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/assets/script.js"></script>
+
+    <!-- Dynamic year -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

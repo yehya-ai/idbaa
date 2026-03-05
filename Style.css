@@ -1,0 +1,198 @@
+/* ===== Minimal CSS  ===== */
+/* لون الفوتر */
+:root {
+  --dark: #000000;
+}
+
+/* Space for fixed navbar مسافة تحت الناف بار */
+
+.page-top-space {
+  padding-top: 90px;
+}
+
+/* Make services section overlap the hero (optional)  \\\   تنسيق المسافة فوق قسم الخدمات  */
+.services-overlap {
+  margin-top: 70px;
+  position: relative;
+  z-index: 5;
+}
+
+/* Services circle images \\\  تنسيق صور قسم الخدمات */
+.service-img {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #6101af;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+#nav {
+  background-color: #3f044b;
+}
+/* Footer \\\ الفوتر للصفحات  */
+.footer {
+  background-color: #3f044b;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .carousel-img {
+    height: 220px;
+  }
+}
+/* ========== Contact Page Styles
+       (moved from contact.html) ====== */
+
+.page-wrap {
+  min-height: calc(100vh - 70px);
+  padding-top: 110px; /* space for fixed navbar */
+  padding-bottom: 40px;
+}
+
+.contact-card {
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-icon {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(0, 102, 255, 0.08);
+}
+
+.form-label i {
+  opacity: 0.9;
+}
+
+/* Logo rounding without inline style */
+.brand-logo--round {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Fix your media query (remove the ;) */
+@media (max-width: 576px) {
+  .carousel-img {
+    height: 220px;
+  }
+}
+
+/* ===   هافر ل كارد صفحة الخدمات مشترك صفحة رئيسية وكاروسيل===== */
+#Card:hover {
+  transform: scale(1.04);
+}
+
+/* ===== Search form effects ===== */
+.navbar .form-control[type="search"] {
+  width: 150px;
+  transition:
+    width 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.navbar .form-control[type="search"]:focus {
+  width: 220px;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.navbar .btn-outline-light {
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+.navbar .btn-outline-light:hover,
+.navbar .btn-outline-light:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* highlight term inside results */
+.search-highlight {
+  background: yellow;
+  font-weight: bold;
+  /* add a small colored underline effect */
+  text-decoration: underline;
+  text-decoration-color: #f00; /* red underline */
+  text-decoration-thickness: 2px;
+  /* optionally change text color for emphasis */
+  color: #d00;
+}
+
+/* ===== Search form effects ===== */
+.navbar .form-control[type="search"] {
+  width: 150px;
+  transition:
+    width 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.navbar .form-control[type="search"]:focus {
+  width: 220px;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.navbar .btn-outline-light {
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+.navbar .btn-outline-light:hover,
+.navbar .btn-outline-light:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* ===== Navbar toggler (three-bar) effect ===== */
+.navbar-toggler {
+  transition:
+    transform 0.3s,
+    filter 0.3s;
+}
+.navbar-toggler:hover {
+  filter: brightness(1.2);
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* ===== Toggler X-mark effect ===== */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255,255,255,0.55)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 2l12 12M14 2L2 14'/%3e%3c/svg%3e");
+}
+
+/* ===== Back to top button ===== */
+#backToTop {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+  z-index: 999;
+}
+#backToTop.show {
+  display: block;
+}
+#heder {
+  font-family: "Cairo", sans-serif;
+  color: #000000;
+
+  padding: 30px;
+}
+.icon-yellow {
+  color: #ffc107;
+  margin-left: 8px;
+}
+
+#list {
+  font-family: "Cairo", sans-serif;
+  color: #000000;
+}

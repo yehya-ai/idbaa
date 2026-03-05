@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="Ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحة نماذج أعمالنا</title>
+
+    <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/assets/Style.css" />
+  </head>
+
+  <body>
+    <!-- ==========     Navbar \\\\  الناف بار   =========== -->
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <!--    اللوجو \\\ الاسم اسم الصفحة \\\ الأيقونات بوتستراب  -->
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="index.html"
+          title="إبداع ميديا"
+        >
+          <img
+            id="Card"
+            class="brand-logo"
+            src="/imags/Logo.png"
+            alt="إبداع ميديا"
+            width="48"
+            height="48"
+            style="border-radius: 50%"
+          />
+          <span class="navbar-brand d-flex">
+            <h6 id="Card">إبداع ميديا للتصمميم والتسويق</h6>
+          </span>
+        </a>
+
+        <!-- أيقونة التنقل بين الصفحات \\\ ثلاث شرطات -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ===========  Book it!  \\\ الصفحات \\\\   روابط + زر البوك ات   =========   -->
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto gap-2">
+            <!-- Home \\\\ ربط مع أيقونات \\\  صفحة الهوم  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fa-solid fa-house me-1"></i> الرئيسية</a
+              >
+            </li>
+            <!-- Services   \\\ صفحة الخدمات  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="services.html"
+                ><i class="fa-solid fa-briefcase me-1"></i>الخدمات</a
+              >
+            </li>
+            <!--  Contact Us   \\\ صفحة التواصل  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fa-solid fa-envelope me-1"></i>تواصل معنا</a
+              >
+            </li>
+            <!--  Contact Us   \\\ صفحة التواصل  -->
+            <li id="Card" class="nav-item">
+              <a class="nav-link active text-warning" href="نماذج أعمالنا.html"
+                ><i class="fa-solid fa-images me-1"></i>نماذج أعمالنا
+              </a>
+            </li>
+          </ul>
+
+          <!-- Search form -->
+          <form class="d-flex ms-lg-3 me-lg-4 my-2 my-lg-0" id="searchForm">
+            <input
+              id="Card"
+              class="form-control form-control-sm me-2"
+              type="search"
+              placeholder="ابحث هنا"
+              aria-label="Search"
+              required
+            />
+            <button class="btn btn-outline-light btn-sm" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- مسافة تحت navbar -->
+    <div class="page-top-space"></div>
+
+    <!-- ===============   كاروسيل رقم 1    =============== -->
+    <header class="pb-4">
+      <section id="heder" class="py-5 text-center">
+        <h1 class="fw-bold display-5">
+          <i class="fa-solid fa-hashtag text-warning me-2"></i>
+          تصاميم سوشال ميديا
+        </h1>
+      </section>
+      <div id="Card" class="container">
+        <div class="hero-wrap">
+          <!-- Carousel -->
+          <div
+            id="mainCarousel"
+            class="carousel slide mt-4 overflow-hidden"
+            data-bs-ride="carousel"
+          >
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <!-- Button for Slide 1 \\\  زر السلايد الأول   -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel"
+                data-bs-slide-to="0"
+                aria-current="true"
+                class="active"
+                aria-label="slide 1"
+              >
+                تصميم جرافيك
+              </button>
+              <!-- Button for Slide 2  \\\  زر السلايد الثاني  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel"
+                data-bs-slide-to="1"
+                aria-label="slide 2"
+              >
+                سوشيال ميديا
+              </button>
+              <!-- Button for Slide 3 \\\   زر السلايد الثالث  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel"
+                data-bs-slide-to="2"
+                aria-label="slide 3"
+              >
+                تحليل البيانات
+              </button>
+            </div>
+            <!-- Slides \\\   قسم السلاسيد والصور  -->
+            <!-- Slides 1  \\\   قسم صورة 1 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="graphic.png"
+                  alt="Slide 1"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 2  \\\   قسم صورة 2 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="social.png"
+                  alt="Slide 2"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 3  \\\   قسم صورة 3 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="data.png"
+                  alt="Slide 3"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+            </div>
+
+            <!-- Controls \\\ أزرار التحكم بالكاروسيل السابق  و التالي-->
+            <!-- prev \\\ السابق -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#mainCarousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- next \\\ التالي  -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#mainCarousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ===============   كاروسيل رقم 2   =============== -->
+    <header class="pb-4">
+      <section id="heder" class="py-5 text-center">
+        <h1 class="fw-bold display-5">
+          <i class="fa-solid fa-hashtag text-warning me-2"></i>
+          تصاميم لوقو وشعارات للشركات
+        </h1>
+      </section>
+      <div id="Card" class="container">
+        <div class="hero-wrap">
+          <!-- Carousel -->
+          <div
+            id="mainCarousel2"
+            class="carousel slide mt-4 overflow-hidden"
+            data-bs-ride="carousel"
+          >
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <!-- Button for Slide 1 \\\  زر السلايد الأول   -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel2"
+                data-bs-slide-to="0"
+                aria-current="true"
+                class="active"
+                aria-label="slide 1"
+              >
+                تصميم جرافيك
+              </button>
+              <!-- Button for Slide 2  \\\  زر السلايد الثاني  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel2"
+                data-bs-slide-to="1"
+                aria-label="slide 2"
+              >
+                سوشيال ميديا
+              </button>
+              <!-- Button for Slide 3 \\\   زر السلايد الثالث  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel2"
+                data-bs-slide-to="2"
+                aria-label="slide 3"
+              >
+                تحليل البيانات
+              </button>
+            </div>
+            <!-- Slides \\\   قسم السلاسيد والصور  -->
+            <!-- Slides 1  \\\   قسم صورة 1 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="graphic.png"
+                  alt="Slide 1"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 2  \\\   قسم صورة 2 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="social.png"
+                  alt="Slide 2"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 3  \\\   قسم صورة 3 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="data.png"
+                  alt="Slide 3"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+            </div>
+
+            <!-- Controls \\\ أزرار التحكم بالكاروسيل السابق  و التالي-->
+            <!-- prev \\\ السابق -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#mainCarousel2"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- next \\\ التالي  -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#mainCarousel2"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ===============  كاروسيل رقم 3    =============== -->
+    <header class="pb-4">
+      <section id="heder" class="py-5 text-center">
+        <h1 class="fw-bold display-5">
+          <i class="fa-solid fa-hashtag text-warning me-2"></i>
+          تصاميم هويات بصرية للشركات
+        </h1>
+      </section>
+      <div id="Card" class="container">
+        <div class="hero-wrap">
+          <!-- Carousel -->
+          <div
+            id="mainCarousel3"
+            class="carousel slide mt-4 overflow-hidden"
+            data-bs-ride="carousel"
+          >
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <!-- Button for Slide 1 \\\  زر السلايد الأول   -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel3"
+                data-bs-slide-to="0"
+                aria-current="true"
+                class="active"
+                aria-label="slide 1"
+              >
+                تصميم جرافيك
+              </button>
+              <!-- Button for Slide 2  \\\  زر السلايد الثاني  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel3"
+                data-bs-slide-to="1"
+                aria-label="slide 2"
+              >
+                سوشيال ميديا
+              </button>
+              <!-- Button for Slide 3 \\\   زر السلايد الثالث  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel3"
+                data-bs-slide-to="2"
+                aria-label="slide 3"
+              >
+                تحليل البيانات
+              </button>
+            </div>
+            <!-- Slides \\\   قسم السلاسيد والصور  -->
+            <!-- Slides 1  \\\   قسم صورة 1 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="graphic.png"
+                  alt="Slide 1"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 2  \\\   قسم صورة 2 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="social.png"
+                  alt="Slide 2"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 3  \\\   قسم صورة 3 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="data.png"
+                  alt="Slide 3"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+            </div>
+
+            <!-- Controls \\\ أزرار التحكم بالكاروسيل السابق  و التالي-->
+            <!-- prev \\\ السابق -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#mainCarousel3"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- next \\\ التالي  -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#mainCarousel3"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ===============   كاروسيل رقم 4    =============== -->
+    <header class="pb-4">
+      <section id="heder" class="py-5 text-center">
+        <h1 class="fw-bold display-5">
+          <i class="fa-solid fa-hashtag text-warning me-2"></i>
+          نتائج حملاتنا الإعلانية على منصات التواصل الاجتماعي
+        </h1>
+      </section>
+      <div id="Card" class="container">
+        <div class="hero-wrap">
+          <!-- Carousel -->
+          <div
+            id="mainCarousel4"
+            class="carousel slide mt-4 overflow-hidden"
+            data-bs-ride="carousel"
+          >
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <!-- Button for Slide 1 \\\  زر السلايد الأول   -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel4"
+                data-bs-slide-to="0"
+                aria-current="true"
+                class="active"
+                aria-label="slide 1"
+              >
+                تصميم جرافيك
+              </button>
+              <!-- Button for Slide 2  \\\  زر السلايد الثاني  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel4"
+                data-bs-slide-to="1"
+                aria-label="slide 2"
+              >
+                سوشيال ميديا
+              </button>
+              <!-- Button for Slide 3 \\\   زر السلايد الثالث  -->
+              <button
+                type="button"
+                data-bs-target="#mainCarousel4"
+                data-bs-slide-to="2"
+                aria-label="slide 3"
+              >
+                تحليل البيانات
+              </button>
+            </div>
+            <!-- Slides \\\   قسم السلاسيد والصور  -->
+            <!-- Slides 1  \\\   قسم صورة 1 -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="graphic.png"
+                  alt="Slide 1"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 2  \\\   قسم صورة 2 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="social.png"
+                  alt="Slide 2"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+              <!-- Slides 3  \\\   قسم صورة 3 -->
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 rounded-4 carousel-img"
+                  src="data.png"
+                  alt="Slide 3"
+                  style="height: 400px; object-fit: cover"
+                />
+              </div>
+            </div>
+
+            <!-- Controls \\\ أزرار التحكم بالكاروسيل السابق  و التالي-->
+            <!-- prev \\\ السابق -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#mainCarousel4"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- next \\\ التالي  -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#mainCarousel4"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- =========================   Footer \\\ قسم الفوتر للصفحة   ========================= -->
+    <footer class="footer py-4 mt-5">
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3"
+      >
+        <div class="fw-bold">
+          © <span id="year"></span>إبداع ميديا — الإبداع الذي يصنع النجاح.
+        </div>
+        <!--  Font Awesome   \\\ فونت اوسم الأيقونات  -->
+
+        <div class="d-flex gap-3">
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-facebook"></i> Facebook</a
+          >
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-instagram"></i> Instagram</a
+          >
+          <a id="Card" href="#"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- back-to-top button -->
+    <button
+      id="backToTop"
+      class="btn btn-primary btn-lg"
+      title="Back to top"
+      aria-label="Back to top"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- Bootstrap JS \\\ بوتستراب ربط -->
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/assets/script.js"></script>
+  </body>
+</html>
